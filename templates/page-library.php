@@ -59,7 +59,7 @@ $occasions = get_terms(['taxonomy' => 'nagham_occasion', 'hide_empty' => true, '
                 
                 <div class="flex items-center gap-3 md:gap-6 w-1/2 md:w-auto">
                     <div class="relative w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-white shadow-inner flex-shrink-0 overflow-hidden border border-gray-50">
-                        <?php if (has_post_thumbnail()) : the_post_thumbnail('thumbnail', ['class' => 'w-full h-full object-cover']); else : ?>
+                        <?php if (has_post_thumbnail()) : the_post_thumbnail('thumbnail', ['class' => 'w-full h-full object-cover', 'alt' => get_the_title()]); else : ?>
                             <span class="material-symbols-outlined absolute inset-0 flex items-center justify-center text-gray-200 text-3xl md:text-4xl">audiotrack</span>
                         <?php endif; ?>
                         <div class="absolute inset-0 bg-[#3D2B6B]/90 flex items-center justify-center gap-[3px] opacity-0 group-[.playing]:opacity-100 transition-opacity">

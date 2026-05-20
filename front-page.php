@@ -381,7 +381,7 @@ $occasions = get_terms([
     
     <div class="absolute inset-0 z-0">
         <img src="https://nagham.sa/wp-content/uploads/2026/04/pexels-tommyclineweaver-765139-scaled.jpg" 
-             class="w-full h-full object-cover opacity-55 transition-all duration-1000" alt="Nagham Studio Premium">
+             class="w-full h-full object-cover opacity-55 transition-all duration-1000" alt="">
         
         <div class="absolute inset-0 bg-gradient-to-b from-black via-black/20 to-black"></div>
     </div>
@@ -465,7 +465,7 @@ $occasions = get_terms([
                 ?>
                     <<?php echo $tag; ?> <?php echo $href; ?> 
                         class="ngm-partner-card flex items-center justify-center w-28 md:w-40 h-16 md:h-20 flex-shrink-0 cursor-pointer transition-all duration-300 hover:scale-110 hover:-translate-y-2 hover:drop-shadow-xl mx-4 md:mx-7">
-                        <img src="<?php echo esc_url($logo); ?>" alt="<?php the_title(); ?>" class="max-w-full max-h-full object-contain">
+                        <img src="<?php echo esc_url($logo); ?>" alt="<?php echo esc_attr( sprintf( 'شعار %s', get_the_title() ) ); ?>" class="max-w-full max-h-full object-contain">
                     </<?php echo $tag; ?>>
                 <?php 
                         endif;
@@ -524,7 +524,7 @@ $occasions = get_terms([
     
     <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1920&q=80" 
-             class="w-full h-full object-cover opacity-20 grayscale" alt="Music background">
+             class="w-full h-full object-cover opacity-20 grayscale" alt="">
         <div class="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/80 to-transparent"></div>
     </div>
 

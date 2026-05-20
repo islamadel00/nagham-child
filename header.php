@@ -129,7 +129,7 @@ body{font-family:'Tajawal',sans-serif;background-color:#FAF8F5;color:#1b1c1a;ove
           $custom_logo_id = get_theme_mod( 'custom_logo' );
           $logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
           echo '<a href="' . esc_url( home_url( '/' ) ) . '" class="flex items-center">';
-          echo '<img src="' . esc_url( $logo_url ) . '" alt="' . get_bloginfo( 'name' ) . '" class="custom-logo">';
+          echo '<img src="' . esc_url( $logo_url ) . '" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" class="custom-logo">';
           echo '</a>';
       } else {
           echo '<a href="' . esc_url( home_url( '/' ) ) . '" class="flex items-center gap-2">';

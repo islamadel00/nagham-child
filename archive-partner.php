@@ -39,7 +39,7 @@
             ?>
                 <<?php echo $tag; ?> <?php echo $href; ?> class="group bg-white rounded-[2rem] p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-500 cursor-pointer text-center flex flex-col items-center justify-center">
                     <div class="h-32 flex items-center justify-center mb-6">
-                        <img src="<?php echo esc_url($logo); ?>" alt="<?php the_title(); ?>" class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105">
+                        <img src="<?php echo esc_url($logo); ?>" alt="<?php echo esc_attr( sprintf( 'شعار %s', get_the_title() ) ); ?>" class="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105">
                     </div>
                     <h3 class="font-bold text-brand-dark text-lg group-hover:text-primary transition-colors"><?php the_title(); ?></h3>
                 </<?php echo $tag; ?>>
@@ -85,7 +85,7 @@
             ?>
                 <<?php echo $tag; ?> <?php echo $href; ?> class="bg-white rounded-2xl p-6 border border-gray-100 hover:border-primary/40 hover:shadow-md transition-all duration-300 flex flex-col items-center justify-center gap-4 group cursor-pointer text-center">
                     <div class="h-20 flex items-center justify-center w-full">
-                        <img src="<?php echo esc_url($logo); ?>" alt="<?php the_title(); ?>" class="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-110">
+                        <img src="<?php echo esc_url($logo); ?>" alt="<?php echo esc_attr( sprintf( 'شعار %s', get_the_title() ) ); ?>" class="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-110">
                     </div>
                     <h4 class="font-bold text-brand-dark/80 text-sm group-hover:text-primary transition-colors"><?php the_title(); ?></h4>
                 </<?php echo $tag; ?>>

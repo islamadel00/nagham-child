@@ -65,9 +65,9 @@ body { background-color: #fafafa; }
                 
                 <div class="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-xl aspect-video bg-gray-100 group">
                     <?php if (has_post_thumbnail()) : ?>
-                        <?php the_post_thumbnail('full', ['class' => 'w-full h-full object-cover']); ?>
+                        <?php the_post_thumbnail('full', ['class' => 'w-full h-full object-cover', 'alt' => get_the_title()]); ?>
                     <?php else: ?>
-                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover" alt="صورة افتراضية للخدمة">
                     <?php endif; ?>
                 </div>
 

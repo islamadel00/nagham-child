@@ -22,7 +22,7 @@
 
             <div class="lg:col-span-2">
                 <div class="mb-5">
-                    <img src="https://nagham.sa/wp-content/uploads/2026/04/cropped-cropped-cropped-logonagham.png" class="nagham-footer-logo mb-5 brightness-0 invert opacity-90" alt="نغم للإنتاج الفني">
+                    <img src="https://nagham.sa/wp-content/uploads/2026/04/cropped-cropped-cropped-logonagham.png" class="nagham-footer-logo mb-5 brightness-0 invert opacity-90" alt="شعار نغم للإنتاج الفني">
                 </div>
                 
                 <p class="text-white/60 text-xs md:text-sm leading-relaxed mb-6 max-w-sm">

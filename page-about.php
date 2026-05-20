@@ -83,7 +83,7 @@ get_header();
                 $custom_logo_id = get_theme_mod( 'custom_logo' );
                 $logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
                 echo '<div class="bg-surface p-4 rounded-[2rem] shadow-xl border border-gray-100">';
-                echo '<img src="' . esc_url( $logo_url ) . '" alt="نغم" class="h-20 md:h-24 w-auto object-contain">';
+                echo '<img src="' . esc_url( $logo_url ) . '" alt="شعار نغم للإنتاج الفني" class="h-20 md:h-24 w-auto object-contain">';
                 echo '</div>';
             }
             ?>
@@ -196,10 +196,10 @@ get_header();
                 </p>
 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.18.44.jpeg" alt="مرحلة الانطلاقة 1"></div>
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.11.53.jpeg" alt="مرحلة الانطلاقة 2"></div>
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.07.49-e1778404077548.jpeg" alt="مرحلة الانطلاقة 3"></div>
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.08.05.jpeg" alt="مرحلة الانطلاقة 4"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.18.44.jpeg" alt="من أرشيف مرحلة الانطلاقة (2008-2015) - صورة 1"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.11.53.jpeg" alt="من أرشيف مرحلة الانطلاقة (2008-2015) - صورة 2"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.07.49-e1778404077548.jpeg" alt="من أرشيف مرحلة الانطلاقة (2008-2015) - صورة 3"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.08.05.jpeg" alt="من أرشيف مرحلة الانطلاقة (2008-2015) - صورة 4"></div>
                 </div>
             </div>
 
@@ -218,10 +218,10 @@ get_header();
                 </p>
 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.37.jpeg" alt="مرحلة التمكن 1"></div>
-                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.39.jpeg" alt="مرحلة التمكن 2"></div>
-                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.41-1.jpeg" alt="مرحلة التمكن 3"></div>
-                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.41-2.jpeg" alt="مرحلة التمكن 4"></div>
+                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.37.jpeg" alt="من أرشيف مرحلة التمكن (2016-2026) - صورة 1"></div>
+                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.39.jpeg" alt="من أرشيف مرحلة التمكن (2016-2026) - صورة 2"></div>
+                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.41-1.jpeg" alt="من أرشيف مرحلة التمكن (2016-2026) - صورة 3"></div>
+                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.41-2.jpeg" alt="من أرشيف مرحلة التمكن (2016-2026) - صورة 4"></div>
                 </div>
             </div>
 
@@ -272,10 +272,10 @@ get_header();
                 </div>
 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.09.09.jpeg" alt="مرحلة الارتقاء 1"></div>
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.08.52.jpeg" alt="مرحلة الارتقاء 2"></div>
-                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.08.32.jpeg" alt="مرحلة الارتقاء 3"></div>
-                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.42.jpeg" alt="مرحلة الارتقاء 4"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.09.09.jpeg" alt="من أرشيف مرحلة الارتقاء - صورة 1"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.08.52.jpeg" alt="من أرشيف مرحلة الارتقاء - صورة 2"></div>
+                    <div class="gallery-img-wrapper"><img src="https://darkslategray-goshawk-323284.hostingersite.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-00.08.32.jpeg" alt="من أرشيف مرحلة الارتقاء - صورة 3"></div>
+                    <div class="gallery-img-wrapper"><img src="https://nagham.sa/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-01-at-14.28.42.jpeg" alt="من أرشيف مرحلة الارتقاء - صورة 4"></div>
                 </div>
             </div>
 
