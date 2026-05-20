@@ -28,7 +28,6 @@ add_action('after_setup_theme', function () {
 
 // ─── 4. تنظيف Astra ──────────────────────────────────────────
 add_filter('astra_fonts_url', '__return_empty_string');
-add_filter('astra_schema_enabled', '__return_false');
 
 // ─── 5. استدعاء الموديلات الخارجية ───────────────────────────────
 $modules = ['inc/post-types.php', 'inc/meta-boxes.php', 'inc/audio-protection.php', 'inc/booking-handler.php', 'inc/library-filter.php', 'inc/admin-columns.php'];
